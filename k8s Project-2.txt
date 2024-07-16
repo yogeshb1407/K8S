@@ -1,0 +1,49 @@
+1. Install visual studio, AWS CLI & Terraform.
+
+2. Create S3 bucket.
+   https://github.com/ankit-jagtap-devops/terraform-s3-bucket.git   //by terraform
+
+3. Create a EC2 instance and install jenkins, maven, terraform, k8s, git.    //by terraform
+   https://github.com/ankit-jagtap-devops/terraform-vpc-jenkins-DB.git
+   1. add key pair- terraform
+   
+
+4. Create a K8s cluster            // by using jenkins pipeline
+   https://github.com/ankit-jagtap-devops/terraform-eks-nodegroup.git
+
+   -two iam role- for cluster
+                  for node
+
+5. K8s cluster configuration and deployment    by using jenkins pipeline
+   https://github.com/ankit-jagtap-devops/devops-cicd-ygminds 
+   -actually this is CI/CD
+
+   only password variable ghetala ahe 
+   id means user name default ahe-dockerhubpwd
+
+
+
+
+we give trraform admin access by using (terraform-admin) IAM role
+and ec2 la admin cha role pan dyayaha ahe
+when you attach role to ec2 you have to create ec2
+
+ec2 var terraform chalayala pahije mhanun admin role detoy
+ec2 la role denya sathi instance profile create karavi lagate
+
+sudo takun docker la root chi permission deto
+or jenkin grp madhe add karun pan permission deu shakato
+
+
+
+
+
+Amazon Web Services
+AWS
+AWS Certification
+AWS Cloud
+Cloud Architecture
+Cloud Certification
+Cloud Data
+Cloud Infrastructure
+Cloud Services
